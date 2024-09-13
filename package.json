@@ -1,0 +1,33 @@
+{
+  "name": "bucketui",
+  "version": "0.0.9",
+  "description": "Loadr is an efficient solution for seamlessly loading large images in HTML, with a minified size of under 1 KB.",
+  "main": "loadr.min.js",
+  "unpkg": "loadr.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-loadr/loadr.git"
+  },
+  "author": "open-loadr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-loadr/loadr/issues"
+  },
+  "homepage": "https://open-loadr.github.io/loadr/",
+  "keywords": [
+    "javascript",
+    "css",
+    "html",
+    "open-source",
+    "library",
+    "customization",
+    "img",
+    "image",
+    "loading",
+    "loadr",
+    "open-loadr"
+  ]
+}
