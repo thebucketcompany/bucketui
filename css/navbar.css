@@ -5,7 +5,7 @@
     --bucket-font-family: 'Inter', sans-serif;
     --bucket-bg-color: #ffffff;
     --bucket-navbar-padding: 8px;
-    --bucket-navbar-bg-color: transparent;
+    --bucket-navbar-bg-color: var(--bucket-bg-color);
     --bucket-navbar-start-gap: 6px;
     --bucket-navbar-end-gap: 6px;
 }
@@ -16,7 +16,7 @@
         --bucket-font-family: 'Inter', sans-serif;
         --bucket-bg-color: #09090B;
         --bucket-navbar-padding: 8px;
-        --bucket-navbar-bg-color: transparent;
+        --bucket-navbar-bg-color: var(--bucket-bg-color);
         --bucket-navbar-start-gap: 6px;
         --bucket-navbar-end-gap: 6px;
     }
@@ -27,7 +27,7 @@
     --bucket-font-family: 'Inter', sans-serif;
     --bucket-bg-color: #ffffff;
     --bucket-navbar-padding: 8px;
-    --bucket-navbar-bg-color: transparent;
+    --bucket-navbar-bg-color: var(--bucket-bg-color);
     --bucket-navbar-start-gap: 6px;
     --bucket-navbar-end-gap: 6px;
 }
@@ -37,7 +37,7 @@
     --bucket-font-family: 'Inter', sans-serif;
     --bucket-bg-color: #09090B;
     --bucket-navbar-padding: 8px;
-    --bucket-navbar-bg-color: transparent;
+    --bucket-navbar-bg-color: var(--bucket-bg-color);
     --bucket-navbar-start-gap: 6px;
     --bucket-navbar-end-gap: 6px;
 }
