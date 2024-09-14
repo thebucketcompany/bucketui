@@ -1,33 +1,20 @@
 {
   "name": "bucketui",
-  "version": "0.0.9",
-  "description": "Loadr is an efficient solution for seamlessly loading large images in HTML, with a minified size of under 1 KB.",
-  "main": "loadr.min.js",
-  "unpkg": "loadr.min.js",
+  "version": "0.0.0",
+  "description": "Free and open-source CSS component library",
+  "main": "css/all.min.css",
+  "unpkg": "css/all.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/open-loadr/loadr.git"
+    "url": "git+https://github.com/thebucketcompany/bucketui.git"
   },
-  "author": "open-loadr",
+  "author": "The Bucket Company",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/open-loadr/loadr/issues"
+    "url": "https://github.com/thebucketcompany/bucketui/issues"
   },
-  "homepage": "https://open-loadr.github.io/loadr/",
-  "keywords": [
-    "javascript",
-    "css",
-    "html",
-    "open-source",
-    "library",
-    "customization",
-    "img",
-    "image",
-    "loading",
-    "loadr",
-    "open-loadr"
-  ]
+  "homepage": "https://github.com/thebucketcompany/bucketui/"
 }
