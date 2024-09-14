@@ -1,6 +1,6 @@
 {
   "name": "@thebucketcompany/bucketui",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Free and open-source CSS component library",
   "author": "The Bucket Company",
   "main": "css/all.min.css",
