@@ -17,6 +17,8 @@
     --bucket-btn-ghost-active-bg-color: #F4F4F5;
     --bucket-btn-link-color: #232326;
     --bucket-btn-link-bg-color: rgb(0, 0, 0, 0);
+    --bucket-btn-danger-color: #FAFAFA;
+    --bucket-btn-danger-bg-color: #EF4444;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,6 +39,8 @@
         --bucket-btn-ghost-active-bg-color: #27272A;
         --bucket-btn-link-color: #FAFAFA;
         --bucket-btn-link-bg-color: rgba(250, 250, 250, 0);
+        --bucket-btn-danger-color: #FAFAFA;
+        --bucket-btn-danger-bg-color: #7F1D1D;
     }
 }
 
@@ -57,6 +61,8 @@
     --bucket-btn-ghost-active-bg-color: #F4F4F5;
     --bucket-btn-link-color: #232326;
     --bucket-btn-link-bg-color: rgb(0, 0, 0, 0);
+    --bucket-btn-danger-color: #FAFAFA;
+    --bucket-btn-danger-bg-color: #EF4444;
 }
 
 [data-theme=dark] {
@@ -76,6 +82,8 @@
     --bucket-btn-ghost-active-bg-color: #27272A;
     --bucket-btn-link-color: #FAFAFA;
     --bucket-btn-link-bg-color: rgba(250, 250, 250, 0);
+    --bucket-btn-danger-color: #FAFAFA;
+    --bucket-btn-danger-bg-color: #7F1D1D;
 }
 
 body {
@@ -255,4 +263,14 @@ button.btn.btn-link {
     background-color: var(--bucket-btn-link-bg-color);
     color: var(--bucket-btn-link-color);
     text-decoration: underline;
+}
+
+a[role=button].btn.btn-danger,
+input[type=button].btn.btn-danger,
+input[type=submit].btn.btn-danger,
+input[type=reset].btn.btn-danger,
+button.btn.btn-danger {
+    border: var(--bucket-btn-border-width) solid var(--bucket-btn-danger-bg-color);
+    background-color: var(--bucket-btn-danger-bg-color);
+    color: var(--bucket-btn-color-color);
 }
