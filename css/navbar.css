@@ -59,6 +59,11 @@ div.navbar {
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 div.navbar .navbar-start {
