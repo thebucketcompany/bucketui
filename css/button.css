@@ -272,5 +272,5 @@ input[type=reset].btn.btn-danger,
 button.btn.btn-danger {
     border: var(--bucket-btn-border-width) solid var(--bucket-btn-danger-bg-color);
     background-color: var(--bucket-btn-danger-bg-color);
-    color: var(--bucket-btn-color-color);
+    color: var(--bucket-btn-danger-color);
 }
