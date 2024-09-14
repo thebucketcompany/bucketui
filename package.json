@@ -1,6 +1,6 @@
 {
-  "name": "bucketui",
-  "version": "0.0.1",
+  "name": "@thebucketcompany/bucketui",
+  "version": "0.0.0",
   "description": "Free and open-source CSS component library",
   "author": "The Bucket Company",
   "main": "css/all.min.css",
@@ -16,5 +16,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
