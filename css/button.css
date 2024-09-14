@@ -122,6 +122,7 @@ button.btn {
     text-decoration: none;
 }
 
+a[role=button].btn svg,
 button.btn svg {
     height: 18px;
     width: 18px;
