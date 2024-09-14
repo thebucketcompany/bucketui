@@ -120,6 +120,7 @@ button.btn {
     text-align: center;
     gap: 8px;
     text-decoration: none;
+    text-wrap: nowrap;
 }
 
 a[role=button].btn svg,
